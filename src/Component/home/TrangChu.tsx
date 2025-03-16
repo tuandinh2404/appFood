@@ -47,7 +47,7 @@ export const Home =(props:any) =>{
             </TouchableHighlight>
             <View style={{flexDirection:'column'}}>
                 <Text style={{fontSize:10 ,color:'#E9762B',fontWeight:'bold'}}>
-                    DELIVAR TO12312312312
+                    Dinh Tuan
                 </Text>
                 <Text>
                     {userName}
