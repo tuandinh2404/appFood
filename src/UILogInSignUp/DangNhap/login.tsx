@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 export const Login = () => {
     const navigation = useNavigation();
-    const dispatch=useDispatch()
+    const dispatch = useDispatch()
     const [accout,setAccout] = useState<any>(null);
     const [ gmail, setGmail]= useState('')
     const [ pass, setPass] = useState('')

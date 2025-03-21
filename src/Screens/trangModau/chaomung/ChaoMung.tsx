@@ -9,10 +9,10 @@ export const Screens = ({navigation} :any) => {
   const dichuyen = async() => {
     const user = await AsyncStorage.getItem('user');
     if(user ==='true') {
-      // const timer = setTimeout(() => {
-      //   navigation.navigate('TrangChu')
-      // }, 3000 )
-      // return() => clearTimeout(timer)
+      const timer = setTimeout(() => {
+        navigation.navigate('TrangChu')
+      }, 3000 )
+      return() => clearTimeout(timer)
     }
     else{
       const time = setTimeout(() => {
