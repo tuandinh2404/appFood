@@ -21,7 +21,11 @@ export const BonhoSlice = createSlice({
         },
         saveTypepassword: (state, action) => {
             state.typePassword = action.payload.savetypepassword
-        }
+        },
+        resetNguoidung: ( state,action) => {
+            state.user = '',
+            state.email=''
+        },
         
     },
 })

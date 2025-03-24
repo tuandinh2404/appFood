@@ -11,6 +11,8 @@ import { Login } from "../../UILogInSignUp/DangNhap/login";
 import { Home } from "../../Component/home/TrangChu";
 import { LogOut } from "../../UILogInSignUp/DangXuat/signout";
 import { Search } from "../../Component/search/timkiem";
+import { Giohang } from "../../Component/shopping/giohang";
+import DetailProduct from "../../Component/home/DetailProduct";
 
 
 
@@ -29,6 +31,11 @@ function NewStack() {
                 <Stack.Screen name='DangNhap' component={Login}/>
                 <Stack.Screen name='TrangChu' component={Home} options={{presentation: 'card'}}/>
                 <Stack.Screen name='Timkiem' component={Search} options={{presentation: "modal"}} />
+                <Stack.Screen name='Giohang' component={Giohang} options={{presentation: "modal"}}/>
+                <Stack.Screen name='DetailProduct' component={DetailProduct} options={{presentation: "modal"}}/>
+
+
+                
             </Stack.Navigator>
         </NavigationContainer>
         
